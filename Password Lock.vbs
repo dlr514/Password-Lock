@@ -30,7 +30,7 @@ Else
 			again3 =MsgBox("Incorect Password! Do You Want To Try Again?",53,"Incorect Password!")
 			If again3 = 4 Then
 				dim incorect
-				incorect =MsgBox("To many incorect passwords! Program will now lock!",16,"WARNIG!!")
+						incorect =MsgBox("Too many incorect passwords! The program will now lock!",16,"WARNIG!!")
 				objShell.Run("-------YOUR FAIL LINK HERE--------")
 					end if
 				end if
